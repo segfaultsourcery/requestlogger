@@ -8,7 +8,7 @@ This requires docker and docker-compose.
 cd into the folder, then issue the following commands:
 
     docker-compose build
-    docker-compose up .
+    docker-compose up web
 
 As per the docker-compose.yml file, the log will end up in ```/tmp/intrusionlog/log.txt```.
 
