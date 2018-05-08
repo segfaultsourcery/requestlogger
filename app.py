@@ -32,7 +32,7 @@ def landing(path=None):
 
     data = {
         'time': now,
-        'path': f'/{path}',
+        'path': f'/{path}' if path else '/',
         'request': {
             'base_url': request.base_url,
             'remote_addr': request.remote_addr,
